@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopecommerce]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.AddProductTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="userCanSearchAndAddProductsToShoppingCart"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.AddProductTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [nopecommerce] -->
